@@ -101,7 +101,7 @@ odata$BREACH <- ifelse(as.Date(odata$CREATED)==as.Date(odata$PICKED),
 odata$DELAY <- ifelse(odata$ORDER.URGENCY.TYPE!="STANDARD",
                        ifelse(as.Date(odata$DELIVERED)>as.Date(odata$REQUESTED),1,0),
                         ifelse(as.Date(odata$DELIVERED)>(as.Date(odata$REQUESTED)+2),1,0))
-
+#Fulfillement of any order which is delayed by more than 1 day over its SLA is considered as delayed. 
 
 
 ##################################### DAY WISE SUMMARY (ORDERS)########################################
@@ -155,7 +155,6 @@ earlylogoff_agents <- adata %>% filter(off_adherence<=-30) %>%
 
 
 
-##test
 
 
 
