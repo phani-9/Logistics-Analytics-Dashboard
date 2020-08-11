@@ -12,3 +12,33 @@ KPI's :
 Libraries : Shiny, ggplot, lubridate, tidyr, tidyverse, dply, reshape2......
 
 P.S. Sample data of the datasets used in this work is attached in rep. 
+
+Screenshots of the dashboard
+#1
+
+![](Dashboard%20Images/Picture1.png)
+
+#2
+
+![](Dashboard%20Images/Picture2.png)
+
+#3
+
+![](Dashboard%20Images/Picture3.png)
+
+#4
+
+![](Dashboard%20Images/Picture4.png)
+
+#5
+
+![](Dashboard%20Images/Picture5.png)
+
+#6
+
+![](Dashboard%20Images/Picture6.png)
+
+#7
+
+![](Dashboard%20Images/Picture7.png)
+
