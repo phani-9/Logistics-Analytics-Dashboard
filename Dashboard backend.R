@@ -10,6 +10,7 @@ library(data.table)
 
 ##Read the data. I need to use two data sets to generate reports in this situation.
 ## This step can be automated by httr request and pulling data from API.
+## HTTR REQUEST
 d1<- read.csv(file.choose(),header = T)       #Delivery drivers data
 d2<- read.csv(file.choose(),header =T)        #Orders data
 adata <- d1
